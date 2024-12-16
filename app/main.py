@@ -7,7 +7,7 @@ from utils import clean_text
 
 def create_streamlit_app(llm, clean_text):
     st.title("🌍 Chat With Any Website")
-    url_input = st.text_input("Enter a URL:", value="https://jobs.nike.com/job/R-33460")
+    url_input = st.text_input("Enter a URL:", value="https://en.wikipedia.org/wiki/Document_AI")
     query = st.text_input("Enter your query:")
     submit_button = st.button("Submit")
 
