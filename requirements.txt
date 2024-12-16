@@ -1,0 +1,5 @@
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-groq===0.1.9
+streamlit
+python-dotenv==1.0.0
