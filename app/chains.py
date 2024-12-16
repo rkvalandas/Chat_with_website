@@ -7,7 +7,7 @@ from langchain_core.exceptions import OutputParserException
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key = st.secrets("GROQ_API_KEY")
+api_key = st.secrets["GROQ_API_KEY"]
 
 class Chain:
     def __init__(self):
